@@ -64,42 +64,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Syntology provides a modern ontology for AI, structuring and verifying research papers, code, and citations. Their platform offers a graph API that agents can query without registration, delivering verified code and metadata. The company emphasizes transparency, veracity, and open access, with detailed methodology and attribution pages. Founded by Matthew Alexander, Syntology aims to make AI research traceable and reusable.
+Syntology provides a modern ontology for AI research, aggregating papers, code, citations, and authors into a structured, verifiable graph. The platform offers developers searchable access to millions of research artifacts, enabling traceable AI/ML development and reproducibility. It emphasizes transparency, attribution, and rigorous verification of sources, supporting both academic and commercial AI projects.
 
-**Areas:** AI · Ontology · GraphAPI · OpenData · Research
+**Areas:** AI · Ontology · Research · Data · Graph
 
 ## Syntology on APIs.io
 
 Everything profiled for Syntology is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/syntology-ai/](https://apis.io/providers/syntology-ai/)** — or go straight to one of the APIs or properties below.
 
-### APIs (2)
-
-- [Graph API](https://apis.io/apis/syntology-ai/graph-api/) — Syntology's Graph API provides a queryable graph of research papers, code, and citations. It can be accessed without registration via a short-lived trial…
-- [Syntology API](https://apis.io/apis/syntology-ai/syntology-ai-api/) — Syntology API as documented publicly: 5 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own document.
-
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
-
-#### JSON Schema (3)
-
-The data models the API reads and writes.
-
-- [PostApiOauthTrialTokenRequest](https://apis.io/schemas/syntology-ai/syntology-ai-post-api-oauth-trial-token-request/)
-- [PostMcpRequest](https://apis.io/schemas/syntology-ai/syntology-ai-post-mcp-request/)
-- [PostRegisterRequest](https://apis.io/schemas/syntology-ai/syntology-ai-post-register-request/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Syntology Ai Context](https://apis.io/jsonld/syntology-ai/syntology-ai-context/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [Syntology API Rules](https://apis.io/rules/syntology-ai/syntology-ai-rules/)
 
 #### Security (3)
 
@@ -121,30 +96,29 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://syntology.ai/)
 - [Documentation](https://syntology.ai/developers)
-- [Getting started](https://app.syntology.ai/docs/how-to/atlas-quickstart)
-- [API reference](https://syntology.ai/.well-known/mcp/server-card.json)
+- [Getting started](https://syntology.ai/about)
 - [Pricing](https://syntology.ai/pricing)
 - [Terms of service](https://syntology.ai/terms)
 - [Privacy policy](https://syntology.ai/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 49.9** — developing · rubric 0.29.0 · scored 2026-11-26
+**Kin Score 24.5** — emerging · rubric 0.28.0 · scored 2026-11-26
 
 | Facet | Score |
 |---|---|
-| Discoverability | 75.0 |
-| Contract quality | 53.7 |
-| Contract governance | 79.1 |
+| Discoverability | 58.9 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
 | Operational transparency | 9.5 |
-| Developer ergonomics | 40.5 |
+| Developer ergonomics | 39.8 |
 | Access clarity | 40.9 |
 
-**Agent readiness 35.7** — agent-ready
+**Agent readiness 24.3** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | yes |
+| Spec Presence | — |
 | Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
@@ -154,9 +128,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | signal |
+| Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
@@ -164,13 +138,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | distinct |
+| Operation Distinctiveness | na |
 | MCP Tool Quality | na |
-| Onboarding Descriptor | — |
-| Dns Aid Index | na |
-| Markdown Negotiation | na |
 
-**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 23.6** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/syntology-ai/](https://apis.io/providers/syntology-ai/).
 
